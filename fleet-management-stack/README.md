@@ -7,4 +7,3 @@ A simple offline demonstration of running our various Fleet Management component
 * Postgres database image
 * Golang Backend image
 * NodeJS frontend image
-
