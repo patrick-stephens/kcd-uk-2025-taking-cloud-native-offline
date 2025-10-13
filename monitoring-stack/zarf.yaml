@@ -9,7 +9,9 @@ components:
     description: "A repository of example configurations for Fluent Bit"
     repos:
       - https://github.com/fluentdo/fluent-bit-examples.git
-    required: true
+    # Triggers a disconnected failure as missing gitea unless you do
+    # zarf init --components=git-server
+    required: false
   - name: kube-prometheus-stack
     description: "A collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator."
     required: true
