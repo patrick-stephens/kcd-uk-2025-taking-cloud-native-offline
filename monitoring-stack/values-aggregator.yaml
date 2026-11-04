@@ -2,7 +2,7 @@ kind: Deployment
 replicaCount: 3
 
 # image:
-#   repository: ghcr.io/fluentdo/agent
+#   repository: ghcr.io/telemetryforge/agent
 #   tag: 25.10.2
 
 service:
