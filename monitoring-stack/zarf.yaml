@@ -8,7 +8,7 @@ components:
   - name: examples-repository
     description: "A repository of example configurations for Fluent Bit"
     repos:
-      - https://github.com/fluentdo/fluent-bit-examples.git
+      - https://github.com/telemetryforge/fluent-bit-examples.git
     # Triggers a disconnected failure as missing gitea unless you do
     # zarf init --components=git-server
     required: false
