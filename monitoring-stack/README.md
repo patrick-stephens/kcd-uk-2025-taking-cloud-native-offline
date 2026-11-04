@@ -2,7 +2,7 @@
 
 An example set up to demonstrate taking our example monitoring stack offline with Zarf and Hauler.
 
-Original set up from: <https://github.com/FluentDo/fluent-bit-examples/tree/main/monitoring-stack>.
+Original set up from: <https://github.com/telemetryforge/fluent-bit-examples/tree/main/monitoring-stack>.
 This includes a few components:
 
 * kube-prometheus-stack helm chart
