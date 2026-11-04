@@ -17,7 +17,7 @@ spec:
     - name: docker.io/bats/bats:v1.4.1
     - name: quay.io/thanos/thanos:v0.39.2
     - name: registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.3
-    - name: ghcr.io/fluentdo/agent:25.10.2
+    - name: ghcr.io/telemetryforge/agent:25.10.2
     - name: busybox:latest
     # Added to serve images
     - name: docker.io/registry:3.0.0
